@@ -1,0 +1,41 @@
+This is a fighting game roughly the same as "hot blooded fighting", the name of the game is temporarily named: Punch & Kick, if you are interested, you can take a high-end atmosphere for this game name, or low-key luxury connotation of the name can also be.
+
+This game is developed by the author in his spare time. The purpose of development is mainly to realize the author's own ideas, so that the author's college time is not wasted, and it is also for the convenience of the author to find a job in the future.
+
+Source code based on the GNU General Public License agreement second edition (GPLv2) release, the author is open source, mainly in order to communicate with other developers and amateur programming enthusiasts technology, by the way to meet the author's desire to show.
+
+This game was developed with the author's own thoughts. The author did not intend it to be a popular game. Please do not expect this game to be a popular game for you.
+
+The development of this game may be suspended due to the author's future work, so please do not expect too much from this game.
+
+# # rendering
+![screenshort 1](https://blog.lc-soft.io/static/images/game/2013-11-15-21-54-36.png)
+![screenshort 2](https://blog.lc-soft.io/static/images/game/2013-11-15-22-02-07.png)
+# # to build
+
+On the GNU/Linux platform, make sure you have the LCUI library installed, then use the command in the game source root:
+
+```shell
+./configure
+make
+` ` `
+
+The generated game main program will be in the SRC directory named game, please move it to the bin directory, to run the game, please
+Enter character console mode first to ensure that the graphics are displayed properly.
+
+On Windows, you will need to prepare VisualStudio, either 2010 or 2012. Go to the build directory
+Directory, open the SLN file, and then use VisualStudio to generate. The generated executable file is in the bin directory.
+
+If you are using another development tool, manually create a project based on the tool's usage and add the game's source and header files to the project. Then add the include and bin directories to the header and library directories, respectively.
+
+## Code reading
+
+Header and source files are mainly encoded in UTF-8 and signed with a BOM. Make sure your code editor supports displaying text in UTF-8.
+
+The source code is indented to a width of 8. Make sure you have your code editor indented to a width of 8 so that the code will appear in its proper format and be easy to read.
+
+Change the font used in the code editor to a uniform width font so that the code displayed looks good.
+
+There are not many comments in the source code of this project. It is recommended to use the code editor with code hints (e.g., hint function prototypes and corresponding comments) to help you understand some of the code.
+
+! [vs2012 code hints feature](https://blog.lc-soft.io/static/images/vs2012-code-hints-feature.png)
