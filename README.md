@@ -1,2 +1,27 @@
-# 2D-fighting-game
-Create a 2D fighting game
+# Object files
+*.o
+
+# Executables
+*.exe
+*.out
+*.app
+
+# other
+*.*~
+*.log
+autom4te.cache
+bin/game
+bin/*/*.png
+bin/*/*.tlog
+bin/Debug/
+bin/Release/
+build/*/*.sdf
+build/*/*.suo
+build/*/*.opensdf
+bin/*.obj
+bin/*.sbr
+bin/*.pdb
+bin/*.ilk
+bin/*.bsc
+src/game
+.deps
